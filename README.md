@@ -72,27 +72,27 @@ Rapor hazırlanıyor, lütfen bekleyin...
 --- GÜNCEL GLOBAL PİYASA DURUMU ---
 Aktif coin sayısı        : 22,670
 Borsa sayısı             : 1,520
-Toplam piyasa değeri     : $2,633,135,945,448
-24s işlem hacmi          : $77,502,843,392
-Bitcoin dominansı        : 59.22%
-Ethereum dominansı       : 10.48%
-Piyasa değeri 24s değişim: -1.65%
+Toplam piyasa değeri     : $2,627,229,732,711
+24s işlem hacmi          : $78,658,162,097
+Bitcoin dominansı        : %59.25
+Ethereum dominansı       : %10.45
+Piyasa değeri 24s değişim: %-2.02
 
 --- PİYASA DEĞERİNE GÖRE İLK 10 COİN ---
-  1. Bitcoin (BTC) | $77,591.0000 | 24s: +1.01% | Liste payı: 65.16%
-  2. Ethereum (ETH) | $2,261.1100 | 24s: +1.02% | Liste payı: 11.54%
-  3. Tether (USDT) | $0.9995 | 24s: +0.05% | Liste payı: 7.52%
-  4. BNB (BNB) | $703.0800 | 24s: +0.66% | Liste payı: 3.86%
-  5. XRP (XRP) | $1.2500 | 24s: +0.28% | Liste payı: 3.32%
+  1. Bitcoin (BTC) | $77,503.0000 | 24s: %1.09 | Liste payı: %65.17
+  2. Ethereum (ETH) | $2,252.5200 | 24s: %0.71 | Liste payı: %11.51
+  3. Tether (USDT) | $0.9995 | 24s: %0.04 | Liste payı: %7.53
+  4. BNB (BNB) | $702.1300 | 24s: %0.88 | Liste payı: %3.86
+  5. XRP (XRP) | $1.2500 | 24s: %0.18 | Liste payı: %3.32
   ...
 
 --- BITCOIN SON 7 GÜN ---
 Veri noktası sayısı : 169
-Başlangıç fiyatı    : $80,525.4365
-Son fiyat           : $77,568.9537
-Değişim             : -3.67%
+Başlangıç fiyatı    : $80,348.4838
+Son fiyat           : $77,513.1481
+Değişim             : %-3.53
 En düşük / En yüksek: $76,360.1781 / $81,691.7499
-Ortalama            : $79,523.2737
+Ortalama            : $79,539.4463
 
 Rapor 'output' klasörüne kaydedildi.
 ```
@@ -128,10 +128,9 @@ Kod katmanlara ayrılmıştır: **API katmanı** (istek, tekrar deneme, hata yö
 - Ücretsiz planın istek limitleri CoinGecko'nun güncel dokümanına bağlıdır. Program, limit aşımında bekleyip tekrar dener.
 - Zaman serisindeki saatler UTC'dir.
 
-## Sürüm Geçmişi
+## Sürüm
 
-- **v1:** Menü tabanlı temel sürüm, üç endpoint'ten veri çekme ve ekrana yazdırma
-- **v2:** Pandas analizi, CSV/Excel çıktısı, tekrar deneme mantığı, loglama, girdi doğrulama ve tam rapor seçeneği eklendi
+**v1.0**
 
 ---
 
